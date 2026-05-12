@@ -523,7 +523,7 @@ function t(key) { return T[key] ? T[key][lang] : key; }
 function l(obj) { return obj[lang] || obj['de'] || ''; }
 
 const CAP = [
-  { id:'c1', name:{ de:'KI-Strategie & Portfoliomanagement', en:'AI Strategy & Portfolio Management' }, short:{ de:'Strategie & Portfolio', en:'Strategy & Portfolio' }, color:'#2563EB', bg:'#DBEAFE' },
+  { id:'c1', name:{ de:'KI-Portfoliomanagement', en:'AI Portfolio Management' }, short:{ de:'Portfolio Management', en:'Portfolio Management' }, color:'#2563EB', bg:'#DBEAFE' },
   { id:'c2', name:{ de:'KI-Bereitstellung & Technologiearchitektur', en:'AI Delivery & Technical Architecture' }, short:{ de:'Bereitstellung & Architektur', en:'Delivery & Architecture' }, color:'#0891B2', bg:'#CFFAFE' },
   { id:'c3', name:{ de:'KI-Koordination & Governance', en:'AI Coordination & Governance' }, short:{ de:'Koordination & Governance', en:'Coordination & Governance' }, color:'#0D9488', bg:'#CCFBF1' },
   { id:'c4', name:{ de:'KI-Datenzugang & -management', en:'AI Data Accessibility & Management' }, short:{ de:'Datenzugang', en:'Data Accessibility' }, color:'#7C3AED', bg:'#EDE9FE' },
